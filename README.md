@@ -54,6 +54,6 @@ Detailed introduction of each functions in the class can be found in comments fr
 # Must-know
 
 * Source code is written and need to be executed under python 3.0 environment
-* In order for stability under different environment, no extra library or package is used unless `sys`
+* In order for stability under different environment, no extra library or package is used unless `sys` and `math`
 * `percentile.txt` is considered to contain only a single number, it not program will exit and print error message
 * Input streams from `itcont.txt` must be following `FEC format`, since there is no information like `title`, program will take certain columns from input stream, column numbers are pre-defined. If format is incorrect it will not read correct information into database.
